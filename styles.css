@@ -1,0 +1,68 @@
+/* Styles for profile cards and table */
+#profile-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    /* border-radius: 5px; */
+}
+
+#profile-cards .card {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#profile-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#profile-table th, #profile-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#more-users {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+    #profile-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+table{
+    /* background-color: aliceblue; */
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+    background-color: #808080;
+    border-style: none;
+    margin-top: 2%;
+    margin-left: 47%;
+    margin-right: 47%;
+
+}

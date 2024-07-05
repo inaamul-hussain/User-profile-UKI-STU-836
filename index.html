@@ -3,130 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Random User Profiles</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <dev class="container">
-        <dev class="cardset">
-            <dev class="card" id="cd1">
-                <!-- <div class="pic" id="pic1">
-                   
-                </div> -->
-                <img src="./001.jpg" class="pic">
-
-                <div class="name" id="name1">
-                    name1
-                </div>
-
-                <div class="email" id="email1">
-                    mail@mail.com
-                </div>
-
-            </dev>
-
-            <dev class="card" id="cd2">
-                <div class="pic" id="pic2">
-
-                </div>
-
-                <div class="name" id="name2">
-                    name2
-                </div>
-
-                <div class="email" id="email2">
-                    mail@mail.com                   
-                </div>
-
-            </dev>
-
-            <dev class="card" id="cd3">
-                <div class="pic" id="pic3">
-
-                </div>
-
-                <div class="name" id="name3">
-                    name3
-                </div>
-
-                <div class="email" id="email3">
-                    mail@mail.com
-                </div>
-
-            </dev>
-
-            <dev class="card" id="cd4">
-                <div class="pic" id="pic4">
-
-                </div>
-
-                <div class="name" id="name4">
-                    name4
-                </div>
-
-                <div class="email" id="email4">
-                    mail@mail.com
-                </div>
-
-            </dev>
-
-            <dev class="card" id="cd5">
-                <div class="pic" id="pic5">
-
-                </div>
-
-                <div class="name" id="name5">
-                    name5
-                </div>
-
-                <div class="email" id="email5">
-                    mail@mail.com
-                </div>
-
-            </dev>
-        </dev>
-
-        <dev>
-            <table class="tableDv">
-                <tr>
-                    <th style="width: 400px;">Name</th>
-                    <th style="width: 800px;">Email</th>
-                </tr>
-
-                <tr>
-                    <td id="name1">name</td>
-                    <td id="email1">mail</td>
-                </tr>
-
-                <tr>
-                    <td id="name2">name</td>
-                    <td id="email2">mail</td>
-                </tr>
-
-                <tr>
-                    <td id="name3">name</td>
-                    <td id="email3">mail</td>
-                </tr>
-
-                <tr>
-                    <td id="name4">name</td>
-                    <td id="email4">mail</td>
-                </tr>
-
-                <tr>
-                    <td id="name5">name</td>
-                    <td id="email5">mail</td>
-                </tr>
-            </table>
-
-        </dev>
-
-        <dev class="button">
-            <button class="btn1" onclick="load()">More Users</button>
-
-        </dev>
-    </dev>
-
-    <script src="./index.js"></script>
+    <div id="profile-cards"></div>
+    <table id="profile-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <button id="more-users">More Users</button>
+    <script src="script.js"></script>
 </body>
 </html>
